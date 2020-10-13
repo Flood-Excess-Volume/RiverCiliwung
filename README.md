@@ -28,11 +28,11 @@ ratingcurve -> only the rating curve graph.
 PS: After you call the function, you need to delete the existing graph before run the function again, since the nickname of the graph already exist, unless you change the nickname of the graph in the code. Added is -readertest to show that the graph is call by you.
 
 
-## TBD: FEV analysis using VBA/Excel for 2020 flood of River Ciliwung (Djakarta, Indonesia)
+## FEV analysis using VBA/Excel for 2020 flood of River Ciliwung (Djakarta, Indonesia)
 
 Work published as: 
 
-TBD
+TBD (report for Data Science project)
 
 Ciliwung River, a provincial cross-border river that flows by passing Bogor City, Depok City and ends up in the Jakarta bay is famous for major flooding in the capital city since 20th century (Ratnaningsih et al., 2019). With the total length of 75km from Mount Pangrango(upstream) to Jakarta Bay(downstream) and total area cover of 322 km2.
 
