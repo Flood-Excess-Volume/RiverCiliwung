@@ -1,5 +1,5 @@
 # RiverCiliwung
-![ciliwungcatchment](figs/TBD.png)
+![](figs/ciliwung%20map.jpg)
 
 Contributors: Nico Septianus, Onno Bokhove
 
@@ -34,7 +34,7 @@ Work published as:
 
 TBD
 
-*Above figure TBD
+Ciliwung River, a provincial cross-border river that flows by passing Bogor City, Depok City and ends up in the Jakarta bay is famous for major flooding in the capital city since 20th century (Ratnaningsih et al., 2019). With the total length of 75km from Mount Pangrango(upstream) to Jakarta Bay(downstream) and total area cover of 322 km2.
 
 See also:
 * 'Using flood-excess volume to assess and communicate flood-mitigation schemes': [presentation](http://www1.maths.leeds.ac.uk/~amttk/files/leedskyoto.pdf) and [poster](http://www1.maths.leeds.ac.uk/~amttk/files/INI_sept2018.pdf). 
@@ -44,22 +44,31 @@ See also:
 #### Data analysis: from depth to discharge to FEV
 
 From the ```/code``` dir, run: 
- * ```TBD``` 
+ * ```Ciliwungcode1.xlsm```  
  
 The Excel/VBA script completes the FEV analysis and calls four plotting routines:
- * ```TBD;```
-`
- 
-in total, N figures are produced, including an adaptation of TBD:
+ * ```equation2()```
+ * ```shadedarea()``` 
+ * ```ratingcurve()``` 
+ * ```FEV()``` 
 
-![3panel](figs/ciliwung3p.png)
+in total, 4 figures are produced, including an adaptation of Three-panel Graph:
 
-*Caption: TBD*
+![](figs/Ciliwungfinalplot.png)
+
+*Caption: Quadrant plot for early 2020 new year flood of the River Ciliwung at Depok Floodgate.
+The plot shows 3-panel graph between relationship of time vs height (original data), height
+vs flowrate (rating curve), time vs flowrate (hydrograph).*
 
 #### Cost-effectiveness analysis
 
-Run ```TBD``` to produce figure N of TBD:
+Run ```mitigation()``` to produce mitigation analysis:
 
-![floodscheme](figs/TBD)
+![](figs/mitigation1.png)
 
-*Caption: TBD*
+*Caption: First flood mitigation scenario that mitigates 96% of the FEV in the worst and 100% at the best. Technically, Ciawi and Sukamahi Dam are specifically to mitigate excess water which came from upstream and the remaining scheme (higher walls, planting trees, floodways) are to mitigate the excess water near downstream.*
+
+![](figs/mitigation2.png)
+
+*Caption: Second flood alternative scenario mitigates 100% of the FEV just with the floodways. Despite the low cost, however this mitigation relies heavily only on one mitigation.*
+
