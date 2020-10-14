@@ -41,7 +41,7 @@ See also:
 
 ### Graphical output 
 
-#### Data analysis: from depth to discharge to FEV
+#### Data analysis: from depth to discharge to FEV (TODO: add FEVmin and FEVmax in 4th quadrant)
 
 From the ```/code``` dir, run: 
  * ```Ciliwungcode1.xlsm```  
